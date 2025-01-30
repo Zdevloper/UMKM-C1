@@ -70,7 +70,7 @@ export function Hero() {
         <Button
           variant="ghost"
           size="icon"
-          className="rounded-full animate-bounce"
+          className="rounded-full animate-bounce bg-primary text-primary-foreground hover:bg-primary/90 hover:text-white"
           onClick={() => document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" })}
         >
           <ChevronDown className="h-6 w-6" />
